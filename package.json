@@ -18,6 +18,7 @@
 	"type": "module",
 	"dependencies": {
 		"bootstrap": "^5.3.0",
-		"format": "^0.2.2"
+		"format": "^0.2.2",
+		"jquery": "^3.7.0"
 	}
 }

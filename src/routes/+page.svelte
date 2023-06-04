@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-md-12">
         <article>
-          <h2 style="font-size:35px; font-weight:400;">Welcome to TacGear - Your Ultimate Destination for Tactical Pouches and Bags!</h2>
+          <h2 style="font-size:35px; font-weight:400; " class="p-2" >Welcome to TacGear - Your Ultimate Destination for Tactical Pouches and Bags!</h2>
           <p>At TacGear, we specialize in providing top-of-the-line tactical pouches and bags for all your carrying needs. We understand the importance of reliable gear that can withstand the demands of your adventurous lifestyle.</p>
           <p>Our collection focuses on quality and functionality, offering a carefully curated selection of pouches and bags designed to keep your essentials organized and easily accessible. Whether you're an outdoor enthusiast, a military professional, or someone who values preparedness, our products are crafted to meet your specific requirements.</p>
           <p>From compact pouches for storing small items to spacious bags capable of carrying all your gear, we have a variety of options to suit your needs. Each item in our collection is made from durable materials and features smart designs to ensure long-lasting performance in any situation.</p>
