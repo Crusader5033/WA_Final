@@ -1,4 +1,5 @@
 <script>
+
     import { fade } from 'svelte/transition';
   let products = [
     {
@@ -11,9 +12,9 @@
     {
       id: 2,
       name: "Utility Pouch",
-      description: "A versatile pouch for storing small items",
-      price: 19.99,
-      image: "nalgeneMain.jpg"
+      description: "A simple zippered pouch for storing small items",
+      price: 12.99,
+      image: "uniMain.jpg"
     },
     {
       id: 3,
@@ -24,17 +25,17 @@
     },
     {
       id: 4,
-      name: "Dump pouch",
-      description: "A versatile pouch for storing small items",
+      name: "Nalgene pouch",
+      description: "A buckled pouch that can hold 1l nalgene bottle.",
       price: 19.99,
       image: "nalgeneMain.jpg"
     },
     {
       id: 5,
-      name: "Dump pouch",
-      description: "A versatile pouch for storing small items",
-      price: 19.99,
-      image: "nalgeneMain.jpg"
+      name: "Double mag pouch",
+      description: "A versatile pouch mainly for two Ak mags,but its rather universal.",
+      price: 17.99,
+      image: "doublemag.jpg"
     },
     {
       id: 6,
@@ -52,6 +53,7 @@
   let fadeDuration = 1000;
   
 </script>
+<link rel="stylesheet" href="/Style/product.css">
 
 <main class="container">
   <h1 class="text-center">Products</h1>

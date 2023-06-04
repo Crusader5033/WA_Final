@@ -1,22 +1,27 @@
 <link rel="stylesheet" href="/Style/home.css">
 
 <main>
-  <section class="carousel slide banner" data-bs-ride="carousel">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide banner" data-bs-touch="false" data-bs-interval="false">
     <div class="carousel-inner">
-      <div class="carousel-item  " data-bs-interval="3000">
-        <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="mainpic.jpg" class="d-block w-100" alt="Banner Image">
+      <div class="carousel-item active">
+        <img src="mainphoto2.jpg" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item active " data-bs-interval="3000">
-        <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="mainphoto2.jpg" class="d-block w-100" alt="Banner Image">
+      <div class="carousel-item">
+        <img src="mainpic3.jpg" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item  " data-bs-interval="3000">
-        <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="mainpic3.jpg" class="d-block w-100" alt="Banner Image">
+      <div class="carousel-item">
+        <img src="mainpic.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-  </section>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
   <section class="container my-5">
     <div class="row">
