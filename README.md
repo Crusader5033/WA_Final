@@ -1,38 +1,31 @@
-# create-svelte
+tacGear
+Welcome to tacGear! This repository contains the source code for a website dedicated to tacGear, a company that specializes in manufacturing pouches and bags for various applications.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Technologies Used
+CSS: Cascading Style Sheets (CSS) have been used to style the user interface and enhance the visual appeal of the website.
+JavaScript: JavaScript has been utilized for implementing interactivity and enhancing the user experience.
+Svelte: The Svelte framework has been employed to build the frontend components and facilitate the development of a reactive and efficient user interface.
+Node.js: The backend of the application has been developed using Node.js, which allows for server-side scripting and handling of HTTP requests.
+PHP: PHP has been used for server-side scripting, implementing server logic, and integrating with databases if required.
+Installation
+Clone the repository:
 
-## Creating a project
+shell
+Copy code
+git clone https://github.com/your-username/tacGear.git
+Navigate to the project directory:
 
-If you're seeing this, you've probably already done this step. Congrats!
+shell
+Copy code
+cd tacGear
+Install the dependencies:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+shell
+Copy code
+npm install
+Start the development server:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+shell
+Copy code
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This will launch the application and make it accessible at http://localhost:5000.
