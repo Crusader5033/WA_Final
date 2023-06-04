@@ -28,9 +28,4 @@ npm run dev
 This will launch the application and make it accessible at http://localhost:5000.
 
 # Techstack
-Technologies Used
-CSS: Cascading Style Sheets (CSS) have been used to style the user interface and enhance the visual appeal of the website.
-JavaScript: JavaScript has been utilized for implementing interactivity and enhancing the user experience.
-Svelte: The Svelte framework has been employed to build the frontend components and facilitate the development of a reactive and efficient user interface.
-Node.js: The backend of the application has been developed using Node.js, which allows for server-side scripting and handling of HTTP requests.
-PHP: PHP has been used for server-side scripting, implementing server logic, and integrating with databases if required.
+CSS,JS,NODE.JS,SVELTE,PHP,
