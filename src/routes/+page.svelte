@@ -3,15 +3,15 @@
 <main>
   <section class="carousel slide banner" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item  " data-bs-interval="2000">
+      <div class="carousel-item  " data-bs-interval="3000">
         <!-- svelte-ignore a11y-img-redundant-alt -->
         <img src="mainpic.jpg" class="d-block w-100" alt="Banner Image">
       </div>
-      <div class="carousel-item active " data-bs-interval="2000">
+      <div class="carousel-item active " data-bs-interval="3000">
         <!-- svelte-ignore a11y-img-redundant-alt -->
         <img src="mainphoto2.jpg" class="d-block w-100" alt="Banner Image">
       </div>
-      <div class="carousel-item  " data-bs-interval="2000">
+      <div class="carousel-item  " data-bs-interval="3000">
         <!-- svelte-ignore a11y-img-redundant-alt -->
         <img src="mainpic3.jpg" class="d-block w-100" alt="Banner Image">
       </div>
