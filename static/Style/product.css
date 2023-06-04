@@ -1,21 +1,19 @@
 .card-img-top {
-    height: 500px;
-    object-fit: cover;
-    
-    
-  }
+  height: 500px;
+  object-fit: cover;
+}
 
-  .fade-in {
-    animation: fade-in-animation 1.0s;
-  }
+.fade-in {
+  animation: fade-in-animation 1s;
+}
 
-  @keyframes fade-in-animation {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

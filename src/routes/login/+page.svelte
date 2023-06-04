@@ -14,11 +14,11 @@
       });
   
       if (response.ok) {
-        // Successful login
+       
         const data = await response.json();
-        console.log(data.message); // You can customize the behavior here
+        console.log(data.message); 
       } else {
-        // Failed login
+       
         const data = await response.json();
         error = data.message;
       }

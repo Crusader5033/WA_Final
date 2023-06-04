@@ -8,7 +8,7 @@
     let password = '';
   
     const register = async () => {
-      // Send the registration data to the server
+      
       const response = await fetch('/php/registration.php', {
         method: 'POST',
         headers: {
@@ -17,13 +17,11 @@
         body: JSON.stringify({ username, password })
       });
   
-      // Check the response from the server
+      
       if (response.ok) {
-        // Registration successful
         console.log('Registration successful');
-        // You can perform additional actions here, such as redirecting to another page
+        
       } else {
-        // Registration failed
         const data = await response.json();
         console.error('Registration failed:', data.message);
       }
