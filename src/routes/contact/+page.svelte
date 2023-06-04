@@ -4,14 +4,14 @@
   <div class="row">
     <div class="col-md-6">
       <div class="company-info p-2">
-        <h2 >TacGear</h2>
+        <h2 style="font-size:35px; font-weight:400;" >TacGear</h2>
         <p>We are here for you , please contact us with any issues or questions.</p>
         <p>Visit our headquarters at:</p>
         <p>Jecna 30, Prague, Czech republic</p>
       </div>
 
       <div class="contact-details p-2">
-        <h2>Contact Details</h2>
+        <h2 style="font-size:35px; font-weight:400;">Contact Details</h2>
         <p>Email: info@tacgear.com</p>
         <p>Phone: +420 123 456 890</p>
       </div> 

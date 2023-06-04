@@ -32,14 +32,36 @@
       </div>
     </div>
   </section>
+
+  <div class="container mb-5">
+    <article class="justify-content-center text-center">
+      <h2 style="font-size:35px; font-weight:400; " >Fact of the day</h2>
+      <p>{historicalFact}</p>
+    </article>
+    
+  </div>
 </main>
 
 <script>
-  import { onMount } from 'svelte';
-  
-  onMount(() => {
-    const carousel = new bootstrap.Carousel(document.querySelector('.carousel'), {
-      interval: 5000 // Set the desired interval for carousel slide transitions (in milliseconds)
+   let historicalFact = '';
+
+async function fetchHistoricalFact() {
+  try {
+    const response = await fetch('https://api.api-ninjas.com/v1/historicalevents?text=world war', {
+      headers: { 'X-Api-Key': 'ayn3Jv4chSPCseFK8Etk7w==05vQpUc5K5l45Slj' }
     });
-  });
+
+    if (response.ok) {
+      const data = await response.json();
+      const randomIndex = Math.floor(Math.random() * data.length);
+      historicalFact = data[randomIndex].event;
+    } else {
+      console.error('Error:', response.statusText);
+    }
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+}
+
+fetchHistoricalFact();
 </script>
