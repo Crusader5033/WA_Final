@@ -1,6 +1,45 @@
- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et non, architecto corporis nobis exercitationem voluptatum repudiandae, soluta, vero minus ipsa iure! Iure non est aliquam ab nostrum nam id aut.
- Voluptatum animi illum laudantium aspernatur. Labore sed obcaecati et temporibus hic aut placeat quisquam at voluptatibus necessitatibus. Corrupti repellat odio unde nemo iste tempora, consequuntur eaque nobis possimus at hic?
- Voluptate doloribus voluptas autem facere quia ut debitis itaque iusto, quis exercitationem impedit, cumque aliquid quibusdam omnis sit voluptatum atque animi ex hic tenetur perferendis dolore, ipsa nobis asperiores! Quisquam?
- Fugit voluptas optio rem atque, provident incidunt reiciendis doloribus nostrum asperiores eos nisi obcaecati inventore veritatis dolore perferendis qui voluptatum voluptatibus sunt autem doloremque earum, corrupti eveniet. Voluptatum, ipsa maxime.
- Deleniti quam quod reiciendis est accusantium nesciunt aspernatur? Harum animi eveniet quaerat perferendis voluptate vel, aliquid voluptatem porro quae? Deleniti hic eum quae corporis est suscipit repellat ipsum, voluptatem soluta.
- Magnam repudiandae, non magni esse possimus nobis odit, enim aspernatur natus nulla, placeat earum voluptas et qui laborum eum dolores? Maxime quam voluptas cum temporibus aliquam impedit pariatur dicta ipsum!</p>
+<link rel="stylesheet" href="/Style/home.css">
+
+<main>
+  <section class="carousel slide banner" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item  " data-bs-interval="2000">
+        <!-- svelte-ignore a11y-img-redundant-alt -->
+        <img src="mainpic.jpg" class="d-block w-100" alt="Banner Image">
+      </div>
+      <div class="carousel-item active " data-bs-interval="2000">
+        <!-- svelte-ignore a11y-img-redundant-alt -->
+        <img src="mainphoto2.jpg" class="d-block w-100" alt="Banner Image">
+      </div>
+      <div class="carousel-item  " data-bs-interval="2000">
+        <!-- svelte-ignore a11y-img-redundant-alt -->
+        <img src="mainpic3.jpg" class="d-block w-100" alt="Banner Image">
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-12">
+        <article>
+          <h2 style="font-size:35px; font-weight:400;">Welcome to TacGear - Your Ultimate Destination for Tactical Pouches and Bags!</h2>
+          <p>At TacGear, we specialize in providing top-of-the-line tactical pouches and bags for all your carrying needs. We understand the importance of reliable gear that can withstand the demands of your adventurous lifestyle.</p>
+          <p>Our collection focuses on quality and functionality, offering a carefully curated selection of pouches and bags designed to keep your essentials organized and easily accessible. Whether you're an outdoor enthusiast, a military professional, or someone who values preparedness, our products are crafted to meet your specific requirements.</p>
+          <p>From compact pouches for storing small items to spacious bags capable of carrying all your gear, we have a variety of options to suit your needs. Each item in our collection is made from durable materials and features smart designs to ensure long-lasting performance in any situation.</p>
+          <p>At TacGear, we believe in the power of simplicity. By specializing in pouches and bags, we ensure that our expertise and attention are focused on providing you with the best carrying solutions. Our dedication to quality craftsmanship and customer satisfaction sets us apart.</p>
+          <p>Browse our range of tactical pouches and bags today and experience the difference TacGear brings to your adventures. Gear up with confidence and rely on TacGear as your go-to source for premium tactical gear.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  import { onMount } from 'svelte';
+  
+  onMount(() => {
+    const carousel = new bootstrap.Carousel(document.querySelector('.carousel'), {
+      interval: 5000 // Set the desired interval for carousel slide transitions (in milliseconds)
+    });
+  });
+</script>
