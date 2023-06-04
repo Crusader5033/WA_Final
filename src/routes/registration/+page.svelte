@@ -9,7 +9,7 @@
   
     const register = async () => {
       // Send the registration data to the server
-      const response = await fetch('registration.php', {
+      const response = await fetch('/php/registration.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

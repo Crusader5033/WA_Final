@@ -32,12 +32,12 @@
             </a>
           </li>
           <li class="nav-item m-2">
-            <a href="">
+            <a href="login">
               <button class="btn btn-outline-light ml-2 links">Login</button>
             </a>
           </li>
           <li class="nav-item m-2">
-            <a href="">
+            <a href="registration">
               <button class="btn btn-outline-light ml-2 links">Register</button>
             </a>
           </li>

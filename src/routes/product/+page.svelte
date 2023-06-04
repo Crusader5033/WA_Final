@@ -7,7 +7,7 @@
       name: "Tactical Backpack",
       description: "A durable backpack for carrying all your gear",
       price: 59.99,
-      image: "nalgeneMain.jpg"
+      image: "pack.jpeg"
     },
     {
       id: 2,
@@ -18,10 +18,10 @@
     },
     {
       id: 3,
-      name: "Mobile Holder",
-      description: "A versatile pouch for storing small items",
-      price: 19.99,
-      image: "nalgeneMain.jpg"
+      name: "Dump pouch",
+      description: "A dump pouch for your empty mags",
+      price: 18.99,
+      image: "odhazovak.jpg"
     },
     {
       id: 4,
@@ -39,10 +39,10 @@
     },
     {
       id: 6,
-      name: "Dump pouch",
-      description: "A versatile pouch for storing small items",
-      price: 19.99,
-      image: "nalgeneMain.jpg"
+      name: "Shoulder bag",
+      description: "Simple shoulder bag,that offers good organisation of all your things with our organizer.",
+      price: 24.99,
+      image: "shoulderbag.jpg"
     },
   ];
   const addToCart = (product) => {
