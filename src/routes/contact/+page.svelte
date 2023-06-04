@@ -3,18 +3,18 @@
 
   <div class="row">
     <div class="col-md-6">
-      <div class="company-info">
-        <h2>About Your Company Name</h2>
-        <p>Your Company Name is a leading company specializing in XYZ products. We are committed to delivering high-quality solutions to our customers.</p>
+      <div class="company-info p-2">
+        <h2 >TacGear</h2>
+        <p>We are here for you , please contact us with any issues or questions.</p>
         <p>Visit our headquarters at:</p>
-        <p>123 Main Street, City, Country</p>
+        <p>Jecna 30, Prague, Czech republic</p>
       </div>
 
-      <div class="contact-details">
+      <div class="contact-details p-2">
         <h2>Contact Details</h2>
-        <p>Email: info@company.com</p>
-        <p>Phone: +1 123-456-7890</p>
-      </div>
+        <p>Email: info@tacgear.com</p>
+        <p>Phone: +420 123 456 890</p>
+      </div> 
     </div>
 
     <div class="col-md-6">
