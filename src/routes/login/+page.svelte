@@ -4,7 +4,6 @@
     let error = '';
   
     const handleSubmit = async () => {
-      // Make an HTTP request to the login.php file
       const response = await fetch('/php/login.php', {
         method: 'POST',
         headers: {
