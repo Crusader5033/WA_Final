@@ -36,6 +36,11 @@
               <button class="btn btn-outline-light ml-2 links">Login</button>
             </a>
           </li>
+          <li class="nav-item m-2">
+            <a href="">
+              <button class="btn btn-outline-light ml-2 links">Register</button>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

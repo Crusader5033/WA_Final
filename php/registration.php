@@ -6,7 +6,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 // Database connection settings
-$servername = 'localhost';
+$servername = '193.85.203.188';
 $dbname = 'your_database_name';
 $db_username = 'your_database_username';
 $db_password = 'your_database_password';
