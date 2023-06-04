@@ -12,8 +12,8 @@
           </tr>
         </thead>
         <tbody>
-          {#each basketProducts as product (product.id)}
-            <tr>
+          {#each basketProducts as product, index}
+            <tr key={`${product.id}-${index}`}>
               <td>{product.name}</td>
               <td>{product.description}</td>
               <td>${product.price.toFixed(2)}</td>
