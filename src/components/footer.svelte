@@ -1,7 +1,11 @@
 <link rel="stylesheet" href="/Style/footer.css">
 <footer class=" text-light py-4" style="background-color: #808000;">
     <div class="container text-center name">
-      <p>© 2023 Dominik Procházka</p>
+      <div class="container d-inline-flex justify-content-center">
+        <p>© 2023 Dominik Procházka</p>
+      <p>Jecna 30 , Prague, Czech republic</p>
+      </div>
+      
       <ul class="list-inline mb-0">
         
         <li class="list-inline-item">
