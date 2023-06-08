@@ -8,7 +8,7 @@ Welcome to tacGear! This repository contains the source code for a website dedic
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/tacGear.git
+git clone
 ```
 Navigate to the project directory:
 
