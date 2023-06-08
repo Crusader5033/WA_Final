@@ -11,7 +11,7 @@ Clone the repository:
 Navigate to the project directory:
 
 ```bash
-cd [your-name]
+cd [your-folder-name]
 ```
 
 Install the dependencies:
