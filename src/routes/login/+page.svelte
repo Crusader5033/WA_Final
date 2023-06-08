@@ -1,52 +1,53 @@
 <script>
-    let username = '';
-    let password = '';
-    let error = '';
-  
-    const handleSubmit = async () => {
-      const response = await fetch('/php/login.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ username, password })
-      });
-  
-      if (response.ok) {
-       
-        const data = await response.json();
-        console.log(data.message); 
-      } else {
-       
-        const data = await response.json();
-        error = data.message;
-      }
-    };
-  </script>
-  
-  <main>
-    <h1>Login</h1>
-    
-    {#if error}
-      <p class="error">{error}</p>
-    {/if}
-  
-    <form on:submit|preventDefault={handleSubmit}>
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" bind:value={username} required />
-      </div>
-      <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" bind:value={password} required />
-      </div>
-      <button type="submit">Login</button>
-    </form>
-  </main>
-  
-  <style>
-    .error {
-      color: red;
+  let username = '';
+  let password = '';
+  let message = '';
+
+  async function login() {
+    const response = await fetch('http://localhost:3000/api/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ username, password })
+    });
+
+    if (response.status === 200) {
+      
+      console.log('Login successful');
+      message = 'Login successful';
+    } else if (response.status === 401) {
+      console.error('Invalid username or password');
+      message = 'Login not successful';
+
+    } else {
+      console.error('An error occurred');
     }
-  </style>
-  
+  }
+</script>
+
+<link rel="stylesheet" href="/Style/login.css">
+
+ {#if message}
+  <div class="message">{message}</div>
+{/if}
+ <main>
+
+  <div class="text-center">
+
+<h2 class="text-center">Login</h2>
+
+<form on:submit|preventDefault={login}>
+  <label>
+    Username:
+    <input type="text" bind:value={username} />
+  </label>
+
+  <label>
+    Password:
+    <input type="password" bind:value={password} />
+  </label>
+
+  <button type="submit">Login</button>
+</form></div>
+ </main>

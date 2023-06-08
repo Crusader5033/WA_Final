@@ -26,7 +26,7 @@
           <li class="nav-item m-2 links">
             <a class="nav-link" href="/contact">Contact</a>
           </li>
-          <li class="nav-item m-2">
+          <li class="nav-item m-2 ">
             <a href="/cart">
               <button class="btn btn-outline-light ml-2 links">Cart</button>
             </a>
